@@ -10,7 +10,7 @@
 
 	<properties>
 		<tycho.version>2.4.0</tycho.version>
-		<updatesite.eclipse.base>https://download.eclipse.org/releases/</updatesite.eclipse.base>
+		<updatesite.eclipse.base>https://ftp.fau.de/eclipse/releases</updatesite.eclipse.base>
 		<updatesite.palladio>https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/</updatesite.palladio>
 	</properties>
 
