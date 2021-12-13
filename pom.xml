@@ -27,7 +27,7 @@
 							<args>-Xmx1024m</args>
 						</jvmArgs>
 						<environmentVariables>
-							<eclipse.p2.mirrors>false</eclipse.p2.mirrors>
+							<eclipse.p2.mirrors>true</eclipse.p2.mirrors>
 						</environmentVariables>
 						<dependencies>
 							<dependency>
