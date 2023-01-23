@@ -84,7 +84,7 @@
 					<executions>
 
 						<execution>
-							<id>2021-12</id>
+							<id>2022-12</id>
 							<goals>
 								<goal>eclipse-run</goal>
 							</goals>
@@ -94,23 +94,23 @@
 									<repository>
 										<id>Eclipse</id>
 										<layout>p2</layout>
-										<url>${updatesite.eclipse.base}/2021-12/</url>
+										<url>${updatesite.eclipse.base}/2022-12/</url>
 									</repository>
 								</repositories>
 								<applicationsArgs>
 									<args>-application</args>
 									<args>org.eclipse.equinox.p2.director</args>
 									<args>-repository</args>
-									<args>${updatesite.palladio},${updatesite.eclipse.base}/2021-12/</args>
+									<args>${updatesite.palladio},${updatesite.eclipse.base}/2022-12/</args>
 									<args>-installIU</args>
 									<!-- information about the installation query: https://wiki.eclipse.org/Equinox/p2/Query_Language_for_p2 -->
 									<args>'Q:everything.select(y | everything.select(x | x.properties ~= filter("(org.eclipse.equinox.p2.type.category=true)") &amp;&amp; x.id ~= /*palladio*/).collect(x | x.requirements).flatten().exists(r | y ~= r))'</args>
 									<args>-debug</args>
 									<args>-consoleLog</args>
 									<args>-destination</args>
-									<args>${project.build.directory}/2021-12</args>
+									<args>${project.build.directory}/2022-12</args>
 								</applicationsArgs>
-								<work>${project.build.directory}/2021-12_work</work>
+								<work>${project.build.directory}/2022-12_work</work>
 							</configuration>
 						</execution>
 
