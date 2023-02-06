@@ -9,7 +9,7 @@
 	<name>Installation Test</name>
 
 	<properties>
-		<tycho.version>2.4.0</tycho.version>
+		<tycho.version>2.7.5</tycho.version>
 		<updatesite.eclipse.base>https://download.eclipse.org/releases/</updatesite.eclipse.base>
 		<updatesite.palladio>https://updatesite.palladio-simulator.com/palladio-build-updatesite/nightly/</updatesite.palladio>
 	</properties>
